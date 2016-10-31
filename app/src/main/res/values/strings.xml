@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SkywellTest</string>
+
+    <integer name="com_vk_sdk_AppId">5690696</integer>
+
+    <!--<LOGIN screen>-->
+    <string name="vk_login">Войти ВКонтакте</string>
+    <string name="vk_logo_text">Nice to click here</string>
+
+    <string name="network_connection_error">Please, check your network connection</string>
+    <string name="download_error">При загрузке данных произошла ошибка</string>
+    <string name="incompatible_attachment">Sorry, this type of the attachment is not compatible now. Possible, it is audio or video file.</string>
+
+</resources>

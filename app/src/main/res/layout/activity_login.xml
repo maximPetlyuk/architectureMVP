@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_login_background">
+
+    <ImageView
+        android:id="@+id/iv_vk_spy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/btn_vk_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/ic_vk_spy"
+        android:textColor="@color/main_white"/>
+
+    <RelativeLayout
+        android:id="@+id/btn_vk_login"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/sel_vk_btn"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/iv_vk_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_vk_logo"
+            android:textColor="@color/main_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_vk_btn"
+            android:maxLines="1"
+            android:text="@string/vk_login"
+            android:textColor="@color/main_white"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+*.iml
+.gradle
+.idea
+.DS_Store
+build
+gradle
+gradle.properties
+gradlew
+gradlew.bat
+local.properties
+skywell.iml
+/captures
+.externalNativeBuild 
+key
