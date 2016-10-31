@@ -23,7 +23,6 @@ android {
             buildConfigField "boolean", "DEBUG_MODE", "false"
         }
         debug {
-            signingConfig signingConfigs.release
             buildConfigField "boolean", "DEBUG_MODE", "true"
         }
     }
